@@ -2,8 +2,24 @@
 
 {% extends 'base.html' %}
 
+
+<h6 id = "space">
+
+</h6>
+
 {% block content %}
+
+<h4 id = "test"> 
+
 Hello, {{ user.username|default:'Guest' }}!
+</h4>
+
+
+<h7 id = "space">
+
+</h7>
+        
+<h5 id = "links">
 
 <div>
         <a href="{% url 'search_stock' user.id %}">Search Stock</a>
@@ -13,4 +29,7 @@ Hello, {{ user.username|default:'Guest' }}!
         <h3>{{stocks_owned|linebreaksbr}}</h2>
 
 </div>
+
+</h5>
+
 {% endblock %}

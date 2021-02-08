@@ -1,4 +1,20 @@
-li a {
+/* body {
+    padding-left: 100px;
+} */
+
+#test {
     color: greenyellow;
+    font-size: 50px;
+    
 }
 
+#background {
+    background-color: powderblue
+}
+#links {
+    font-size: 20px;
+}
+
+#space {
+    margin-bottom: 50px;
+}

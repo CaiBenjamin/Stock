@@ -2,13 +2,11 @@
 
 {% block content%}
 
-    <h2>{{stock_ticker}}</h2>
-    <h2>{{stock_price_formatted}}</h2>
-    <h3>{{user_name}}</h3>
-    <h3>{{user_money_formatted}}</h3>
-    <h4>{{display}}</h4>
-    <h4>{{quantity_owned}}</h4>
-
+    <h1>Stock: {{stock_ticker}} Stock Price: {{stock_price_formatted}} </h1>
+    <h3>Hello {{user_name}}!</h3>
+    <h3>You have {{user_money_formatted}}</h3>
+    <h3>{{display}}</h4>
+    <h3>You own these many shares {{quantity_owned}}</h5>
 
 
     <form method="POST">

@@ -2,10 +2,17 @@
 
 {% block content%}
 
+
+
     <h2>Search Stock</h2>
 
+    <h6 id = "space">
 
-    <!-- ADD FANCY FUCKING CSS HTML SHIT LATER -->
+    </h6>
+
+
+    <h5 id = "links">
+
     <form method="POST">
         {% csrf_token %}
         {{form}}
@@ -13,5 +20,7 @@
         <button type="submit">Search</button>
 
     </form>
+
+    </h5>
 
 {% endblock %}

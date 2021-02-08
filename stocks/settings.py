@@ -70,6 +70,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'stocks.wsgi.application'
 
+STATIC_URL = '/static/'
+
+
+STATICFILES_DIRS = ['/Users/benjamincai/stocks/users/static/']
+
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -118,7 +123,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = "dashboard"
 LOGOUT_REDIRECT_URL = "dashboard"
